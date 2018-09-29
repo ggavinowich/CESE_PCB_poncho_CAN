@@ -1,4 +1,4 @@
-update=vie 21 sep 2018 01:36:53 -03
+update=vie 28 sep 2018 20:35:48 -03
 version=1
 last_client=kicad
 [cvpcb]
@@ -125,5 +125,6 @@ LibName94=xilinx
 LibName95=zetex
 LibName96=Zilog
 LibName97=/home/gabriel/Dropbox/cursos/CESE_embebidos/97_CIAA_hardware/Hardware/PCB/NXP/components/TJA1040
+LibName98=lib/custom_diodes
 [general]
 version=1
