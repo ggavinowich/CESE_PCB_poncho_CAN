@@ -1352,11 +1352,11 @@ Jumper para desacoplar la interfaz CAN del resto de la placa
 Wire Notes Line
 	7100 850  7100 2400
 Text Label 2800 3700 0    60   ~ 0
-+CAN_H_2
+CAN2_+
 Text Label 2800 5150 0    60   ~ 0
--CAN_L_2
+CANL_-
 Text Label 2800 1750 0    60   ~ 0
-+CAN_H_1
+CAN1_+
 Text Label 2800 3200 0    60   ~ 0
--CAN_L_1
+CANL_-
 $EndSCHEMATC
