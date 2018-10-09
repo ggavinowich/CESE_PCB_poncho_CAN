@@ -1337,4 +1337,26 @@ Wire Wire Line
 	4800 6100 5050 6100
 Wire Wire Line
 	5050 6100 5050 5950
+Text Notes 1300 1100 0    60   ~ 0
+Este componente debe ser colocado\n muy cerca del conector para evitar\n que la chispa viaje dentro de la placa \nen caso de problemas
+Wire Notes Line
+	2450 1050 3150 2400
+Text Notes 3450 900  0    60   ~ 0
+Jumpers para desacoplar la R de carga
+Wire Notes Line
+	4450 950  3850 2500
+Wire Notes Line
+	4450 950  5200 2500
+Text Notes 5950 800  0    60   ~ 0
+Jumper para desacoplar la interfaz CAN del resto de la placa
+Wire Notes Line
+	7100 850  7100 2400
+Text Label 2800 3700 0    60   ~ 0
+CAN2_+
+Text Label 2800 5150 0    60   ~ 0
+CANL_-
+Text Label 2800 1750 0    60   ~ 0
+CAN1_+
+Text Label 2800 3200 0    60   ~ 0
+CANL_-
 $EndSCHEMATC
