@@ -310,8 +310,8 @@ $Comp
 L GS2 J10
 U 1 1 5BA47B7A
 P 7950 2600
-F 0 "J10" H 8050 2750 50  0000 C CNN
-F 1 "GS2" H 8050 2451 50  0000 C CNN
+F 0 "J10" V 8050 2700 50  0000 C CNN
+F 1 "GS2" V 8050 2500 50  0000 C CNN
 F 2 "Connect:GS2" V 8024 2600 50  0001 C CNN
 F 3 "" H 7950 2600 50  0001 C CNN
 	1    7950 2600
@@ -321,8 +321,8 @@ $Comp
 L GS2 J9
 U 1 1 5BA47CA2
 P 7950 2500
-F 0 "J9" H 8050 2650 50  0000 C CNN
-F 1 "GS2" H 8050 2351 50  0000 C CNN
+F 0 "J9" V 7850 2600 50  0000 C CNN
+F 1 "GS2" V 7850 2350 50  0000 C CNN
 F 2 "Connect:GS2" V 8024 2500 50  0001 C CNN
 F 3 "" H 7950 2500 50  0001 C CNN
 	1    7950 2500
@@ -332,8 +332,8 @@ $Comp
 L GS2 J8
 U 1 1 5BA48FB9
 P 8100 4550
-F 0 "J8" H 8250 4600 50  0000 C CNN
-F 1 "GS2" H 8200 4500 50  0000 C CNN
+F 0 "J8" V 8200 4650 50  0000 C CNN
+F 1 "GS2" V 8200 4450 50  0000 C CNN
 F 2 "Connect:GS2" V 8174 4550 50  0001 C CNN
 F 3 "" H 8100 4550 50  0001 C CNN
 	1    8100 4550
@@ -343,8 +343,8 @@ $Comp
 L GS2 J7
 U 1 1 5BA48FBF
 P 8100 4450
-F 0 "J7" H 8000 4550 50  0000 C CNN
-F 1 "GS2" H 8000 4450 50  0000 C CNN
+F 0 "J7" V 8000 4550 50  0000 C CNN
+F 1 "GS2" V 8000 4350 50  0000 C CNN
 F 2 "Connect:GS2" V 8174 4450 50  0001 C CNN
 F 3 "" H 8100 4450 50  0001 C CNN
 	1    8100 4450
@@ -547,7 +547,7 @@ F 1 "RSB27C2" H 3300 2700 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3150 2600 50  0001 C CNN
 F 3 "" H 3150 2600 50  0001 C CNN
 	1    3300 2600
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L GND #PWR016
@@ -581,17 +581,6 @@ F 1 "GND" H 6100 5000 50  0000 C CNN
 F 2 "" H 6100 5150 50  0000 C CNN
 F 3 "" H 6100 5150 50  0000 C CNN
 	1    6100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR018
-U 1 1 5BB59E13
-P 6100 3600
-F 0 "#PWR018" H 6100 3450 50  0001 C CNN
-F 1 "+5V" H 6100 3740 50  0000 C CNN
-F 2 "" H 6100 3600 50  0000 C CNN
-F 3 "" H 6100 3600 50  0000 C CNN
-	1    6100 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -757,7 +746,7 @@ F 1 "RSB27C2" H 3300 4650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23W_Handsoldering" H 3150 4550 50  0001 C CNN
 F 3 "" H 3150 4550 50  0001 C CNN
 	1    3300 4550
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L GND #PWR023
@@ -859,17 +848,6 @@ F 3 "" H 7500 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR024
-U 1 1 5BBC57AB
-P 7150 3350
-F 0 "#PWR024" H 7150 3200 50  0001 C CNN
-F 1 "+5V" H 7150 3490 50  0000 C CNN
-F 2 "" H 7150 3350 50  0000 C CNN
-F 3 "" H 7150 3350 50  0000 C CNN
-	1    7150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR025
 U 1 1 5BBC593B
 P 7150 1300
@@ -915,54 +893,10 @@ F 3 "" H 2150 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VP #PWR028
-U 1 1 5BBC9D66
-P 4100 5950
-F 0 "#PWR028" H 4250 5900 50  0001 C CNN
-F 1 "+3.3VP" H 4100 6050 50  0000 C CNN
-F 2 "" H 4100 5950 50  0000 C CNN
-F 3 "" H 4100 5950 50  0000 C CNN
-	1    4100 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR029
-U 1 1 5BBC9DC6
-P 4450 5950
-F 0 "#PWR029" H 4450 5800 50  0001 C CNN
-F 1 "+3.3V" H 4450 6090 50  0000 C CNN
-F 2 "" H 4450 5950 50  0000 C CNN
-F 3 "" H 4450 5950 50  0000 C CNN
-	1    4450 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VP #PWR030
-U 1 1 5BBC9E26
-P 4800 5950
-F 0 "#PWR030" H 4800 5800 50  0001 C CNN
-F 1 "+5VP" H 4800 6090 50  0000 C CNN
-F 2 "" H 4800 5950 50  0000 C CNN
-F 3 "" H 4800 5950 50  0000 C CNN
-	1    4800 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR031
-U 1 1 5BBC9E86
-P 5050 5950
-F 0 "#PWR031" H 5050 5800 50  0001 C CNN
-F 1 "+5V" H 5050 6090 50  0000 C CNN
-F 2 "" H 5050 5950 50  0000 C CNN
-F 3 "" H 5050 5950 50  0000 C CNN
-	1    5050 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR032
+L GNDD #PWR028
 U 1 1 5BBC9EE6
 P 4100 6400
-F 0 "#PWR032" H 4100 6150 50  0001 C CNN
+F 0 "#PWR028" H 4100 6150 50  0001 C CNN
 F 1 "GNDD" H 4100 6250 50  0000 C CNN
 F 2 "" H 4100 6400 50  0000 C CNN
 F 3 "" H 4100 6400 50  0000 C CNN
@@ -970,35 +904,33 @@ F 3 "" H 4100 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L GND #PWR029
 U 1 1 5BBC9F46
 P 4450 6400
-F 0 "#PWR033" H 4450 6150 50  0001 C CNN
+F 0 "#PWR029" H 4450 6150 50  0001 C CNN
 F 1 "GND" H 4450 6250 50  0000 C CNN
 F 2 "" H 4450 6400 50  0000 C CNN
 F 3 "" H 4450 6400 50  0000 C CNN
 	1    4450 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 1100 0    60   ~ 0
-Este componente debe ser colocado\n muy cerca del conector para evitar\n que la chispa viaje dentro de la placa \nen caso de problemas
-Text Notes 3450 900  0    60   ~ 0
+Text Notes 1100 6350 0    60   ~ 0
 Jumpers para desacoplar la R de carga
-Text Notes 5950 800  0    60   ~ 0
-Jumper para desacoplar la interfaz CAN del resto de la placa
+Text Notes 1100 6650 0    60   ~ 0
+Jumper para desacoplar la interfaz \nCAN del resto de la placa
 Text Label 2800 3700 0    60   ~ 0
-CAN2_+
+CAN2+
 Text Label 2800 5150 0    60   ~ 0
-CANL_-
+CAN2-
 Text Label 2800 1750 0    60   ~ 0
-CAN1_+
+CAN1+
 Text Label 2800 3200 0    60   ~ 0
-CANL_-
+CAN1-
 $Comp
-L PWR_FLAG #FLG034
+L PWR_FLAG #FLG030
 U 1 1 5BBD225C
 P 10000 1650
-F 0 "#FLG034" H 10000 1745 30  0001 C CNN
+F 0 "#FLG030" H 10000 1745 30  0001 C CNN
 F 1 "PWR_FLAG" H 10000 1830 30  0000 C CNN
 F 2 "" H 10000 1650 60  0000 C CNN
 F 3 "" H 10000 1650 60  0000 C CNN
@@ -1316,22 +1248,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 6300 4450 6400
 Wire Wire Line
-	4100 5950 4100 6100
-Wire Wire Line
-	4100 6100 4450 6100
-Wire Wire Line
-	4450 6100 4450 5950
-Wire Wire Line
-	4800 5950 4800 6100
-Wire Wire Line
-	4800 6100 5050 6100
-Wire Notes Line
-	2450 1050 3150 2400
-Wire Notes Line
-	4450 950  3850 2500
-Wire Notes Line
-	4450 950  5200 2500
-Wire Wire Line
 	8300 4450 8550 4450
 Wire Wire Line
 	8550 4550 8300 4550
@@ -1362,8 +1278,6 @@ Connection ~ 7500 2600
 Wire Wire Line
 	7150 2300 7150 2500
 Connection ~ 7150 2500
-Wire Notes Line
-	7550 850  7900 2400
 Wire Wire Line
 	6650 4050 6650 4100
 Wire Wire Line
@@ -1371,6 +1285,50 @@ Wire Wire Line
 Wire Wire Line
 	10000 1650 10000 1700
 Connection ~ 10000 1700
-Wire Wire Line
-	5050 6100 5050 5950
+Text Notes 3400 2300 0    60   ~ 0
+*1
+Text Notes 3350 4250 0    60   ~ 0
+*1
+Text Notes 850  5800 0    60   ~ 0
+*1
+Text Notes 3850 4450 0    60   ~ 0
+*2
+Text Notes 5150 4450 0    60   ~ 0
+*2
+Text Notes 3850 2500 0    60   ~ 0
+*2
+Text Notes 5150 2500 0    60   ~ 0
+*2
+Text Notes 1100 6100 0    60   ~ 0
+Este componente debe ser colocado\n muy cerca del conector para evitar\n que la chispa viaje dentro de la placa \nen caso de problemas
+Text Notes 7850 2350 0    60   ~ 0
+*3
+Text Notes 7950 4300 0    60   ~ 0
+*3
+Text Notes 850  6350 0    60   ~ 0
+*2
+Text Notes 850  6550 0    60   ~ 0
+*3
+$Comp
+L +5VP #PWR?
+U 1 1 5BBD8B38
+P 7150 3350
+F 0 "#PWR?" H 7150 3440 20  0001 C CNN
+F 1 "+5VP" H 7150 3500 30  0000 C CNN
+F 2 "" H 7150 3350 60  0000 C CNN
+F 3 "" H 7150 3350 60  0000 C CNN
+	1    7150 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5VP #PWR?
+U 1 1 5BBD8CA5
+P 6100 3600
+F 0 "#PWR?" H 6100 3690 20  0001 C CNN
+F 1 "+5VP" H 6100 3750 30  0000 C CNN
+F 2 "" H 6100 3600 60  0000 C CNN
+F 3 "" H 6100 3600 60  0000 C CNN
+	1    6100 3600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
