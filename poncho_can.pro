@@ -1,4 +1,4 @@
-update=jue 04 oct 2018 01:51:11 -03
+update=vie 12 oct 2018 19:24:34 -03
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,6 +24,8 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -124,7 +126,4 @@ LibName93=Xicor
 LibName94=xilinx
 LibName95=zetex
 LibName96=Zilog
-LibName97=/home/gabriel/Dropbox/cursos/CESE_embebidos/97_CIAA_hardware/Hardware/PCB/NXP/components/TJA1040
-LibName98=lib/custom_diodes
-[general]
-version=1
+LibName97=lib/custom_diodes
