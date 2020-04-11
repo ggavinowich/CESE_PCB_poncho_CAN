@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/gabriel/Dropbox/cursos/CESE_embebidos/99-Tesis/poncho_can/CESE_PCB_poncho_CAN/poncho_can.sch</source>
-    <date>vie 12 oct 2018 19:43:59 -03</date>
+    <source>/home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/poncho_can.sch</source>
+    <date>vie 16 nov 2018 10:06:49 -03</date>
     <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,8 +12,8 @@
         <date>2018-09-21</date>
         <source>poncho_can.sch</source>
         <comment number="1" value="https://github.com/ggavinowich/CESE_PCB_poncho_CAN.git"/>
-        <comment number="2" value=""/>
-        <comment number="3" value="Gabriel Gavinowich"/>
+        <comment number="2" value="Licencia: Ver doc/LICENCIA.txt"/>
+        <comment number="3" value="Autor: Gabriel Gavinowich"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -34,111 +34,141 @@
     <comp ref="J10">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA47B7A</tstamp>
     </comp>
     <comp ref="J9">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA47CA2</tstamp>
     </comp>
     <comp ref="J8">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA48FB9</tstamp>
     </comp>
     <comp ref="J7">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA48FBF</tstamp>
     </comp>
     <comp ref="U101">
       <value>TJA1051T</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
-      <libsource lib="interface" part="TJA1051T"/>
+      <fields>
+        <field name="Digikey Part Number">568-10292-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="TJA1051T"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC28F</tstamp>
     </comp>
     <comp ref="J104">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2A2</tstamp>
     </comp>
     <comp ref="J103">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2A8</tstamp>
     </comp>
     <comp ref="R105">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2AE</tstamp>
     </comp>
     <comp ref="J101">
       <value>DB9_Male_MountingHoles</value>
       <footprint>Connect:DB9MC</footprint>
-      <libsource lib="conn" part="DB9_Male_MountingHoles"/>
+      <fields>
+        <field name="Digikey Part Number">609-5183-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="DB9_Male_MountingHoles"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2BA</tstamp>
     </comp>
     <comp ref="R101">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2C0</tstamp>
     </comp>
     <comp ref="R106">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2C6</tstamp>
     </comp>
     <comp ref="R102">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEC2CC</tstamp>
     </comp>
     <comp ref="C101">
       <value>47n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">490-7227-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAED6A8</tstamp>
     </comp>
     <comp ref="C102">
       <value>47n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">490-7227-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAED702</tstamp>
     </comp>
     <comp ref="C105">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">311-4354-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAEDB90</tstamp>
     </comp>
     <comp ref="D101">
       <value>RSB27C2</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <footprint>TO_SOT_Packages_SMD:SOT-23W_Handsoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">ESD7002WTT1GOSCT-ND</field>
+      </fields>
       <libsource lib="custom_diodes" part="A00094"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAF0A13</tstamp>
@@ -146,83 +176,113 @@
     <comp ref="U102">
       <value>TJA1051T</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
-      <libsource lib="interface" part="TJA1051T"/>
+      <fields>
+        <field name="Digikey Part Number">568-10292-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="TJA1051T"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E06</tstamp>
     </comp>
     <comp ref="J106">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E19</tstamp>
     </comp>
     <comp ref="J105">
       <value>GS2</value>
       <footprint>Connect:GS2</footprint>
-      <libsource lib="conn" part="GS2"/>
+      <libsource lib="poncho_can-cache" part="GS2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E1F</tstamp>
     </comp>
     <comp ref="R107">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E25</tstamp>
     </comp>
     <comp ref="J102">
       <value>DB9_Male_MountingHoles</value>
       <footprint>Connect:DB9MC</footprint>
-      <libsource lib="conn" part="DB9_Male_MountingHoles"/>
+      <fields>
+        <field name="Digikey Part Number">609-5183-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="DB9_Male_MountingHoles"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E31</tstamp>
     </comp>
     <comp ref="R103">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E37</tstamp>
     </comp>
     <comp ref="R108">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E3D</tstamp>
     </comp>
     <comp ref="R104">
       <value>60</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805FT60R4CT-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E43</tstamp>
     </comp>
     <comp ref="C103">
       <value>47n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">490-7227-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E66</tstamp>
     </comp>
     <comp ref="C104">
       <value>47n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">490-7227-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E6C</tstamp>
     </comp>
     <comp ref="C106">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
+      <fields>
+        <field name="Digikey Part Number">311-4354-1-ND</field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E85</tstamp>
     </comp>
     <comp ref="D102">
       <value>RSB27C2</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23W_Handsoldering</footprint>
+      <fields>
+        <field name="Digikey Part Number">ESD7002WTT1GOSCT-ND</field>
+      </fields>
       <libsource lib="custom_diodes" part="A00094"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB59E95</tstamp>
@@ -230,58 +290,103 @@
     <comp ref="D103">
       <value>LED_RX</value>
       <footprint>LEDs:LED_0805_HandSoldering</footprint>
-      <libsource lib="device" part="LED_ALT"/>
+      <fields>
+        <field name="Digikey Part Number">160-1427-1-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="LED_ALT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC371A</tstamp>
     </comp>
     <comp ref="D105">
       <value>LED_TX</value>
       <footprint>LEDs:LED_0805_HandSoldering</footprint>
-      <libsource lib="device" part="LED_ALT"/>
+      <fields>
+        <field name="Digikey Part Number">160-1423-1-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="LED_ALT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC37FE</tstamp>
     </comp>
     <comp ref="R109">
       <value>270</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805JT270RCT-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC39C1</tstamp>
     </comp>
     <comp ref="R111">
       <value>270</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805JT270RCT-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC3D16</tstamp>
     </comp>
     <comp ref="D104">
       <value>LED_TX</value>
       <footprint>LEDs:LED_0805_HandSoldering</footprint>
-      <libsource lib="device" part="LED_ALT"/>
+      <fields>
+        <field name="Digikey Part Number">160-1423-1-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="LED_ALT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC55AD</tstamp>
     </comp>
     <comp ref="D106">
       <value>LED_RX</value>
       <footprint>LEDs:LED_0805_HandSoldering</footprint>
-      <libsource lib="device" part="LED_ALT"/>
+      <fields>
+        <field name="Digikey Part Number">160-1427-1-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="LED_ALT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC55B3</tstamp>
     </comp>
     <comp ref="R110">
       <value>270</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805JT270RCT-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC55B9</tstamp>
     </comp>
     <comp ref="R112">
       <value>270</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
+      <fields>
+        <field name="Digikey Part Number">RMCF0805JT270RCT-ND </field>
+      </fields>
+      <libsource lib="poncho_can-cache" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC55BF</tstamp>
+    </comp>
+    <comp ref="F101">
+      <value>Fiduciaria</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="poncho_can-cache" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC954A9</tstamp>
+    </comp>
+    <comp ref="F103">
+      <value>Fiduciaria</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="poncho_can-cache" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC955C7</tstamp>
+    </comp>
+    <comp ref="F102">
+      <value>Fiduciaria</value>
+      <footprint>Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <libsource lib="poncho_can-cache" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9563C</tstamp>
     </comp>
   </components>
   <libparts>
@@ -299,8 +404,7 @@
         <pin num="3" name="common" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
+    <libpart lib="poncho_can-cache" part="C">
       <footprints>
         <fp>C_*</fp>
       </footprints>
@@ -401,8 +505,7 @@
         <pin num="80" name="GPIO8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="DB9_Male_MountingHoles">
-      <description>9-pin male D-SUB connector, Mounting Hole</description>
+    <libpart lib="poncho_can-cache" part="DB9_Male_MountingHoles">
       <footprints>
         <fp>DB*M*</fp>
       </footprints>
@@ -423,8 +526,7 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="GS2">
-      <description>2-pin jumper/solder bridge</description>
+    <libpart lib="poncho_can-cache" part="GS2">
       <footprints>
         <fp>GS*</fp>
       </footprints>
@@ -438,8 +540,7 @@
         <pin num="2" name="G2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="LED_ALT">
-      <description>LED generic, alternativ symbol</description>
+    <libpart lib="poncho_can-cache" part="LED_ALT">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -452,8 +553,17 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
+    <libpart lib="poncho_can-cache" part="Mounting_Hole">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole</field>
+      </fields>
+    </libpart>
+    <libpart lib="poncho_can-cache" part="R">
       <footprints>
         <fp>R_*</fp>
         <fp>R_*</fp>
@@ -467,9 +577,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="interface" part="TJA1051T">
-      <description>TJA1051T, High-Speed CAN Transceiver, silent mode, SOIC-8</description>
-      <docs>http://www.nxp.com/documents/data_sheet/TJA1051.pdf</docs>
+    <libpart lib="poncho_can-cache" part="TJA1051T">
       <footprints>
         <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
       </footprints>
@@ -491,20 +599,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="custom_diodes">
+      <uri>/home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/lib/custom_diodes.lib</uri>
     </library>
     <library logical="poncho_can">
-      <uri>/home/gabriel/Dropbox/cursos/CESE_embebidos/99-Tesis/poncho_can/CESE_PCB_poncho_CAN/lib/poncho_can.lib</uri>
+      <uri>/home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/lib/poncho_can.lib</uri>
     </library>
-    <library logical="custom_diodes">
-      <uri>/home/gabriel/Dropbox/cursos/CESE_embebidos/99-Tesis/poncho_can/CESE_PCB_poncho_CAN/lib/custom_diodes.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="interface">
-      <uri>/usr/share/kicad/library/interface.lib</uri>
+    <library logical="poncho_can-cache">
+      <uri>/home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/poncho_can-cache.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -19,8 +19,8 @@
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
     (comment 1 https://github.com/ggavinowich/CESE_PCB_poncho_CAN)
-    (comment 2 "Gabriel Gavinowich - Licencia MIT")
-    (comment 3 "Autor Gabriel Gavinowich")
+    (comment 2 "Licencia: Ver doc/LICENCIA.txt")
+    (comment 3 "Autor: Gabriel Gavinowich")
   )
 
   (layers
@@ -72,7 +72,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x3ffff_80000001)
+      (layerselection 0x2bfaa_80000001)
       (usegerberextensions false)
       (excludeedgelayer false)
       (linewidth 0.100000)
@@ -86,7 +86,7 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)

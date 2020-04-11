@@ -1,0 +1,51 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey Part Number,Manf#,Digikey#,Manf
+1,,C,C105,100n,C_0805_HandSoldering,1,,311-4354-1-ND,,,
+2,,C,C106,100n,C_0805_HandSoldering,1,,311-4354-1-ND,,,
+3,,C,C101,47n,C_0805_HandSoldering,1,,490-7227-1-ND,,,
+4,,C,C102,47n,C_0805_HandSoldering,1,,490-7227-1-ND,,,
+5,,C,C103,47n,C_0805_HandSoldering,1,,490-7227-1-ND,,,
+6,,C,C104,47n,C_0805_HandSoldering,1,,490-7227-1-ND,,,
+7,,LED_ALT,D103,LED_RX,LED_0805_HandSoldering,1,,160-1427-1-ND,,,
+8,,LED_ALT,D106,LED_RX,LED_0805_HandSoldering,1,,160-1427-1-ND,,,
+9,,LED_ALT,D104,LED_TX,LED_0805_HandSoldering,1,,160-1423-1-ND,,,
+10,,LED_ALT,D105,LED_TX,LED_0805_HandSoldering,1,,160-1423-1-ND,,,
+11,,A00094,D101,RSB27C2,SOT-23W_Handsoldering,1,,ESD7002WTT1GOSCT-ND,,,
+12,,A00094,D102,RSB27C2,SOT-23W_Handsoldering,1,,ESD7002WTT1GOSCT-ND,,,
+13,,GS2,J10,GS2,GS2,1,,,,,
+14,,GS2,J103,GS2,GS2,1,,,,,
+15,,GS2,J104,GS2,GS2,1,,,,,
+16,,GS2,J105,GS2,GS2,1,,,,,
+17,,GS2,J106,GS2,GS2,1,,,,,
+18,,GS2,J7,GS2,GS2,1,,,,,
+19,,GS2,J8,GS2,GS2,1,,,,,
+20,,GS2,J9,GS2,GS2,1,,,,,
+21,,R,R109,270,R_0805_HandSoldering,1,,RMCF0805JT270RCT-ND,,,
+22,,R,R110,270,R_0805_HandSoldering,1,,RMCF0805JT270RCT-ND,,,
+23,,R,R111,270,R_0805_HandSoldering,1,,RMCF0805JT270RCT-ND,,,
+24,,R,R112,270,R_0805_HandSoldering,1,,RMCF0805JT270RCT-ND,,,
+25,,R,R101,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+26,,R,R102,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+27,,R,R103,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+28,,R,R104,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+29,,R,R105,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+30,,R,R106,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+31,,R,R107,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+32,,R,R108,60,R_0805_HandSoldering,1,,RMCF0805FT60R4CT-ND,,,
+33,,TJA1051T,U101,TJA1051T,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,568-10292-1-ND,,,
+34,,TJA1051T,U102,TJA1051T,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,568-10292-1-ND,,,
+35,,Conn_Poncho2P_2x_20x2,XA101,Conn_Poncho2P_2x_20x2,Conn_Poncho_SinBorde,1,,,M50-3502042,952-1387-ND,Harwin
+
+
+
+
+
+Component Groups:,35
+Component Count:,35
+Fitted Components:,35
+Number of PCBs:,1
+Total components:,35
+Schematic Version:,1.0
+Schematic Date:,2018-09-21
+BoM Date:,vie 16 nov 2018 10:06:49 -03
+Schematic Source:,/home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/poncho_can.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1

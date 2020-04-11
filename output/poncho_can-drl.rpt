@@ -1,5 +1,5 @@
-Drill report for /media/mcarra/Data/Dropbox/CESE_PCB_poncho_CAN/poncho_can.kicad_pcb
-Created on Thu 11 Oct 2018 01:20:14 AM -03
+Drill report for /home/cmartin/Documents/Dropbox/CESE_PCB_poncho_CAN/poncho_can.kicad_pcb
+Created on mar 20 nov 2018 12:23:21 -03
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'poncho_can.drl' contains
     plated through holes:
     =============================================================
-    T1  0.50mm  0.020"  (6 holes)
-    T2  1.02mm  0.040"  (80 holes)
-    T3  1.02mm  0.040"  (18 holes)
-    T4  3.05mm  0.120"  (4 holes)
+    T1  0,50mm  0,020"  (6 holes)
+    T2  1,02mm  0,040"  (80 holes)
+    T3  1,02mm  0,040"  (18 holes)
+    T4  3,05mm  0,120"  (4 holes)
 
     Total plated holes count 108
 

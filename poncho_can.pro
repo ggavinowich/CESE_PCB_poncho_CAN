@@ -1,4 +1,4 @@
-update=mar 30 oct 2018 00:32:14 -03
+update=jue 09 abr 2020 21:19:20 -03
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,3 +32,13 @@ LibDir=
 [eeschema/libraries]
 LibName1=lib/poncho_can
 LibName2=lib/custom_diodes
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
